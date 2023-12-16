@@ -1,0 +1,100 @@
+header {
+  height: 112px;
+
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+/* h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #426b1f;
+  margin-right: auto;
+} */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 80px;
+}
+.nav-header a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #000;
+  font-size: 16px;
+}
+button {
+  background-color: #426b1f;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.5s;
+  background-color: #dff0c8;
+  color: #426b1f;
+}
+header button {
+  font-size: 16px;
+  font-weight: bold;
+  width: 126px;
+  height: 48px;
+}
+main p {
+  color: #000;
+  font-size: 64px;
+  width: 1020px;
+  margin: 167px auto 0;
+  text-align: center;
+}
+main div {
+  width: 227px;
+  margin: 46px auto 0 auto;
+}
+main button {
+  font-size: 20px;
+  width: 227px;
+  height: 64px;
+}
+.images-section {
+  display: flex;
+  margin-top: 156px;
+  justify-content: center;
+}
+.first_figure {
+  width: 504px;
+  height: 693px;
+}
+.second_figure {
+  width: 780px;
+  height: 480px;
+  align-self: center;
+}
+.images-section figcaption {
+  font-size: 14px;
+}
+.text_section {
+  display: flex;
+  margin-top: 156px;
+  justify-content: space-evenly;
+}
+.text_section p:first-child {
+  width: 181px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: -120px;
+}
+.text_section p:last-child {
+  width: 822px;
+  font-size: 20px;
+  align-self: center;
+  margin: 0;
+}
+footer {
+  background-color: #426b1f;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
